@@ -116,8 +116,8 @@ namespace IyunExtension.Controllers
                 : int.MaxValue;
 
             return allowSameLevel
-                ? (targetLevel > sourceLevel)
-                : (targetLevel >= sourceLevel);
+                ? (targetLevel >= sourceLevel)
+                : (targetLevel > sourceLevel);
         }
     }
 }
